@@ -23,7 +23,7 @@ else
               </script>";
 
       echo "<div class='container'>
-              <form role='form' action='/trgy/takipalg.php' method='get'>
+              <form role='form' action='/takipalg.php' method='get'>
                 <div class='alert alert-info'><strong>Canlı Takipçi:</strong> 1.Hastag'e En Son Yazı Yazanları 10 Kullanıcıyı Takip Et.
                   <input type='hidden' name='hastag1takip' value='run'>
                   <input type='submit' value='Takip Et!'>
@@ -56,7 +56,7 @@ else
             echo  "
             <div class='container'>
                 <h3>İstenilen Kullanıcının Takipcisini Takip Etme </h3>
-                  <form role='form' action='/trgy/takipalg.php' method='post'>
+                  <form role='form' action='/takipalg.php' method='post'>
                     <div class='col-lg-12 col-sm-12'>
                        <div class='col-md-9'>
                          <div class='input-group input-group-lg'>

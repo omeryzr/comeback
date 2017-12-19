@@ -16,7 +16,7 @@ else
     echo  "
     <div class='container'>
     <h3>Kelimeye göre Son 10 Tweet'i Favorilere Ekle</h3>
-      <form role='form' action='/trgy/rtfav.php' method='post'>
+      <form role='form' action='/rtfav.php' method='post'>
        <div class='input-group input-group-lg'>
         <span class='input-group-addon'>https://twitter.com/search/tweets/</span>
          <input type='text' class='form-control' placeholder='Herhangi Bir Kelime Giriniz' name='kelime' /></p>
@@ -43,7 +43,7 @@ else
       echo  "
       <div class='container'>
       <h3>Kelimeye göre Son 1 Tweet'i Retweet Yap</h3>
-        <form role='form' action='/trgy/rtfav.php' method='post'>
+        <form role='form' action='/rtfav.php' method='post'>
          <div class='input-group input-group-lg'>
           <span class='input-group-addon'>https://twitter.com/search/tweets/</span>
            <input type='text' class='form-control' placeholder='Herhangi Bir Kelime Giriniz' name='rtkelime' /></p>

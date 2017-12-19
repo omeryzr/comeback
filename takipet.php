@@ -20,7 +20,7 @@ else
         echo  "
         <div class='container'>
             <h3>İstenilen Kullanıcının Takipcisini Takip Etme </h3>
-              <form role='form' action='/trgy/takipet.php' method='post'>
+              <form role='form' action='/takipet.php' method='post'>
                 <div class='col-lg-12 col-sm-12'>
                    <div class='col-md-9'>
                      <div class='input-group input-group-lg'>
@@ -59,7 +59,7 @@ else
         echo  "
         <div class='container'>
               <h3>Kelimeye göre Tweet Atan Kullanıcıları Takip Etme</h3>
-                   <form role='form' action='/trgy/takipet.php' method='post'>
+                   <form role='form' action='/takipet.php' method='post'>
                      <div class='col-lg-12 col-sm-12'>
                         <div class='col-md-9'>
                           <div class='input-group input-group-lg'>
@@ -98,7 +98,7 @@ else
            }
            // Takip Edeni Takip Etme  /*/*/*/*/*/*/*omeryazir.com
             echo "<div class='container'>
-                   <form role='form' action='/trgy/takibetakip.php' method='get'>
+                   <form role='form' action='/takibetakip.php' method='get'>
                      <div class='alert alert-info'><strong>Takip'e - Takip:</strong> Seni Takip Eden Herkesi Sende Takip Et.
                        <input type='hidden' name='takibetakip' value='run'>
                        <input type='submit' value='Takip Et!'>
@@ -137,7 +137,7 @@ else
                                         <tr>
                                           <td class='hidden-xs'>$i</td>
                                           <td>$topic->name</td>
-                                          <td><form role='form' action='/trgy/takipet.php' method='get'>
+                                          <td><form role='form' action='/takipet.php' method='get'>
                                           <input type='text' name='$topic->name' placeholder='Takip Sayısı' >
                                           <input type='submit' value='Takip Et'></form>
                                           </td>
@@ -172,7 +172,7 @@ else
           //   // 1- trend listesini foreach ile çevirip tane tane işleme sokuyorum
           //   foreach ($ret[0]->trends as $topic) {
           //   // 2- trend listesindeki hastagleri sırasıyla yazıp ve buton atıyorum
-          //     echo "<form role='form' action='/trgy/takibetakip.php' method='get'>
+          //     echo "<form role='form' action='/takibetakip.php' method='get'>
           //               <div class='alert alert-info'><strong>Canlı Takipçi:</strong> $topic->name Hastagine En Son Yazı Yazan 10 Kullanıcıyı Takip Et.
           //                 <input type='hidden' name='$topic->name' value='run'>
           //                 <input type='submit' value='$topic->name'>

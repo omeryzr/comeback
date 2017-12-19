@@ -16,7 +16,7 @@ else
     echo  "
     <div class='container'>
     <h3>Kelimeye göre Tweet Topla </h3>
-      <form role='form' action='/trgy/autotweet.php' method='post'>
+      <form role='form' action='/autotweet.php' method='post'>
        <div class='input-group input-group-lg'>
         <span class='input-group-addon'>https://twitter.com/search/tweets/</span>
          <input type='text' class='form-control' placeholder='Herhangi Bir Kelime Giriniz' name='kelime' /></p>
@@ -38,7 +38,7 @@ else
 
       <div class='container'>
       <h3>Kullanıcı Adına göre Tweet Topla </h3>
-        <form role='form' action='/trgy/autotweet.php' method='post'>
+        <form role='form' action='/autotweet.php' method='post'>
          <div class='input-group input-group-lg'>
           <span class='input-group-addon'>https://twitter.com/</span>
            <input type='text' class='form-control' placeholder='Kullanıcı Acını Giriniz' name='isim' /></p>

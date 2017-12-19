@@ -30,7 +30,7 @@ else
 
   //Takip Edeni Takip Etme  /*/*/*/*/*/*/*omeryazir.com
    echo "<div class='container'>
-          <form role='form' action='/trgy/tweetat.php' method='get'>
+          <form role='form' action='/tweetat.php' method='get'>
             <div class='alert alert-info'><strong>Takip'e - Takip:</strong> Seni Takip Eden Herkesi Sende Takip Et.
               <input type='hidden' name='takibetakip' value='run'>
               <input type='submit' value='Tweet At!'>
@@ -52,7 +52,7 @@ else
 
 }
       echo "<div class='form-group'>
-              <form role='form' action='/trgy/tweetat.php' method='get'>
+              <form role='form' action='/tweetat.php' method='get'>
               <label for='comment'>Tweetler:</label>
               <textarea class='form-control' rows='5' name='comment'></textarea>
               <input type='submit' value='Tweetleri belgeye kaydet!'>

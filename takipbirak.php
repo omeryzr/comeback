@@ -19,7 +19,7 @@ else
     // Kullanıcıdan aldığı sayı kadar en son takip edileni takipten çıkarma /*/*/*/*/*/*/*omeryazir.com
         echo  "<div class='container'>
                 <h3>Takibi Bırakmak İstediğiniz Kullanıcı Sayısını Giriniz(İlk Takip Edilenler) </h3>
-                  <form role='form' action='/trgy/takipbirak.php' method='post'>
+                  <form role='form' action='/takipbirak.php' method='post'>
                    <div class='input-group input-group-lg'>
                     <span class='input-group-addon'><i class='fa fa-users fa' aria-hidden='true'><span ></i></span>
                     <input type='text' class='form-control' placeholder='Kullanıcı Sayısı' name='kullanicisayisi' /></p>
@@ -43,7 +43,7 @@ else
         // Kullanıcıdan aldığı sayı kadar en son takip edileni takipten çıkarma /*/*/*/*/*/*/*omeryazir.com
             echo  "<div class='container'>
                     <h3>Takibi Bırakmak İstediğiniz Kullanıcı Sayısını Giriniz(Son Takip Edilenler) </h3>
-                      <form role='form' action='/trgy/takipbirak.php' method='post'>
+                      <form role='form' action='/takipbirak.php' method='post'>
                        <div class='input-group input-group-lg'>
                         <span class='input-group-addon'><i class='fa fa-users fa' aria-hidden='true'><span ></i></span>
                         <input type='text' class='form-control' placeholder='Kullanıcı Sayısı' name='kullanicisayisi1' /></p>
@@ -62,7 +62,7 @@ else
 
             //En başta takip edilen 100 kullanıcıyı takipten çıkarma /*/*/* omeryazir.com
                 echo "<div class='container'>
-                        <form role='form' action='/trgy/takipbirak.php' method='get'>
+                        <form role='form' action='/takipbirak.php' method='get'>
                           <div class='alert alert-info'><strong>100</strong> kullanıcıyı takipten çıkar.
                             <input type='hidden' name='act' value='run'>
                             <input type='submit' value='Takibi Bırak!'>
@@ -83,7 +83,7 @@ else
 
             // Bütün takipcileri sil /*/*/* omeryazir.com
                 echo "<div class='container'>
-                        <form role='form' action='/trgy/takipbirak.php' method='get'>
+                        <form role='form' action='/takipbirak.php' method='get'>
                           <div class='alert alert-info'><strong>Sıfırlama:</strong> Tüm kullanıcıları takipten çıkar.
                             <input type='hidden' name='actall' value='run'>
                             <input type='submit' value='Takibi Bırak!'>

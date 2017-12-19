@@ -16,7 +16,7 @@
 
       echo  "
       <div class='container'>
-        <form role='form' action='/trgy/tweets.php' method='post'>
+        <form role='form' action='/tweets.php' method='post'>
          <div class='input-group input-group-lg'>
           <span class='input-group-addon'>https://twitter.com/</span>
            <input type='text' class='form-control' placeholder='Kullanıcı Acını Giriniz' name='isim' /></p>

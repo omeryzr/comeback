@@ -14,8 +14,8 @@
       <link rel="stylesheet" href="css/twitter.css"/>
 
       <!-- Bootstrap -->
-      <link href="../trgy/static/css/bootstrap.min.css" rel="stylesheet">
-      <link href="../trgy/static/css/twitterstyle.css" rel="stylesheet">
+      <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../static/css/twitterstyle.css" rel="stylesheet">
 
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,8 +40,8 @@
           <center>
               <div class='navbar-collapse collapse' id='navbar-main'>
                   <ul class='nav navbar-nav'>
-                      <li><a href='/trgy/nedir.php'>Nedir?</a></li>
-                      <li><a href='/trgy/kullanim.php'>Ne İşe Yarar?</a></li>
+                      <li><a href='/nedir.php'>Nedir?</a></li>
+                      <li><a href='/kullanim.php'>Ne İşe Yarar?</a></li>
                   </ul>
               </div>
           </center>
@@ -62,19 +62,19 @@
         <center>
             <div class='navbar-collapse collapse' id='navbar-main'>
                 <ul class='nav navbar-nav'>
-                    <li><a href='/trgy/takipet.php'>Takip Et</a></li>
-                    <li><a href='/trgy/takipbirak.php'>Takip Bırak</a></li>
-                    <li><a href='/trgy/rt.php'>RT</a></li>
-                    <li><a href='/trgy/fav.php'>FAV</a></li>
-                    <li><a href='/trgy/trendlist.php'>Trend Listesi</a></li>
-                    <li><a href='/trgy/takibetakip.php'>Takibe Takip</a></li>
-                    <li><a href='/trgy/rtfav.php'>Rt-Fav</a></li>
-                    <li><a href='/trgy/tweetat.php'>Tweet At</a></li>
-                    <li><a href='/trgy/dm.php'>DM</a></li>
-                    <li><a href='/trgy/takipalg.php'>Takip Algoritması</a></li>
+                    <li><a href='/takipet.php'>Takip Et</a></li>
+                    <li><a href='/takipbirak.php'>Takip Bırak</a></li>
+                    <li><a href='/rt.php'>RT</a></li>
+                    <li><a href='/fav.php'>FAV</a></li>
+                    <li><a href='/trendlist.php'>Trend Listesi</a></li>
+                    <li><a href='/takibetakip.php'>Takibe Takip</a></li>
+                    <li><a href='/rtfav.php'>Rt-Fav</a></li>
+                    <li><a href='/tweetat.php'>Tweet At</a></li>
+                    <li><a href='/dm.php'>DM</a></li>
+                    <li><a href='/takipalg.php'>Takip Algoritması</a></li>
                 </ul>
                 <ul class='nav navbar-nav navbar-right'>
-                    <li><a href='/trgy/logout.php'><i class='glyphicon glyphicon-circle-arrow-right'></i> Çıkış</a>
+                    <li><a href='/logout.php'><i class='glyphicon glyphicon-circle-arrow-right'></i> Çıkış</a>
                 </ul>
 
             </div>

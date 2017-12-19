@@ -17,7 +17,7 @@ else
     echo  "
     <div class='container'>
     <h3>Kelimeye göre Son 1 Tweet'i Retweet Yap</h3>
-      <form role='form' action='/trgy/rt.php' method='post'>
+      <form role='form' action='/rt.php' method='post'>
        <div class='input-group input-group-lg'>
         <span class='input-group-addon'>https://twitter.com/search/tweets/</span>
          <input type='text' class='form-control' placeholder='Herhangi Bir Kelime Giriniz' name='rtkelime' /></p>
@@ -64,7 +64,7 @@ else
                                     <tr>
                                       <td class='hidden-xs'>$i</td>
                                       <td>$topic->name</td>
-                                      <td><form role='form' action='/trgy/rt.php' method='get'>
+                                      <td><form role='form' action='/rt.php' method='get'>
                                       <input type='text' name='$a' placeholder='Takip Sayısı' >
                                       <input type='submit' value='Takip Et'></form>
                                       </td>

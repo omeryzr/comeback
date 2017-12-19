@@ -17,7 +17,7 @@ else
     // print_r ($takipedilenler);
 //En başta takip edilen 100 kullanıcıyı takipten çıkarma /*/*/* omeryazir.com
     echo "<div class='container'>
-            <form role='form' action='/trgy/takibetakip.php' method='get'>
+            <form role='form' action='/takibetakip.php' method='get'>
               <div class='alert alert-info'><strong>100</strong> kullanıcıyı takipten çıkar.
                 <input type='hidden' name='act' value='run'>
                 <input type='submit' value='Takibi Bırak!'>
@@ -38,7 +38,7 @@ else
 
 // Bütün takipcileri sil /*/*/* omeryazir.com
     echo "<div class='container'>
-            <form role='form' action='/trgy/takibetakip.php' method='get'>
+            <form role='form' action='/takibetakip.php' method='get'>
               <div class='alert alert-info'><strong>Sıfırlama:</strong> Tüm kullanıcıları takipten çıkar.
                 <input type='hidden' name='actall' value='run'>
                 <input type='submit' value='Takibi Bırak!'>
@@ -57,7 +57,7 @@ else
 // Kullanıcıdan aldığı sayı kadar en son takip edileni takipten çıkarma /*/*/*/*/*/*/*omeryazir.com
     echo  "<div class='container'>
             <h3>Takibi Bırakmak İstediğiniz Kullanıcı Sayısını Giriniz </h3>
-              <form role='form' action='/trgy/takibetakip.php' method='post'>
+              <form role='form' action='/takibetakip.php' method='post'>
                <div class='input-group input-group-lg'>
                 <span class='input-group-addon'><i class='fa fa-users fa' aria-hidden='true'><span ></i></span>
                 <input type='text' class='form-control' placeholder='Kullanıcı Sayısı' name='kullanicisayisi' /></p>
@@ -80,7 +80,7 @@ else
     }
  // Takip Edeni Takip Etme  /*/*/*/*/*/*/*omeryazir.com
   echo "<div class='container'>
-         <form role='form' action='/trgy/takibetakip.php' method='get'>
+         <form role='form' action='/takibetakip.php' method='get'>
            <div class='alert alert-info'><strong>Takip'e - Takip:</strong> Seni Takip Eden Herkesi Sende Takip Et.
              <input type='hidden' name='takibetakip' value='run'>
              <input type='submit' value='Takip Et!'>
@@ -97,7 +97,7 @@ else
   // İstenilen Kullanıcının Takipcileri Takip Etme  /*/*/*/*/*/*/*omeryazir.com
   echo  "<div class='container'>
           <h3>İstenilen Kullanıcının Takipcisini Takip Etme </h3>
-            <form role='form' action='/trgy/takibetakip.php' method='post'>
+            <form role='form' action='/takibetakip.php' method='post'>
              <div class='input-group input-group-lg'>
               <span class='input-group-addon'><i class='fa fa-users fa' aria-hidden='true'><span ></i></span>
               <input type='text' class='form-control' placeholder='Kullanıcı Adı' name='takibetakip1' /></p>
@@ -116,7 +116,7 @@ else
 
     // 1.Hastag'e yazan son 10 kullanıcıyı takip etme  /*/*/*/*/*/*/*omeryazir.com
       echo "<div class='container'>
-              <form role='form' action='/trgy/takibetakip.php' method='get'>
+              <form role='form' action='/takibetakip.php' method='get'>
                 <div class='alert alert-info'><strong>Canlı Takipçi:</strong> 1.Hastag'e En Son Yazı Yazanları 10 Kullanıcıyı Takip Et.
                   <input type='hidden' name='hastag1takip' value='run'>
                   <input type='submit' value='Takip Et!'>
@@ -150,7 +150,7 @@ else
         // 1- trend listesini foreach ile çevirip tane tane işleme sokuyorum
         foreach ($ret[0]->trends as $topic) {
         // 2- trend listesindeki hastagleri sırasıyla yazıp ve buton atıyorum
-          echo "<form role='form' action='/trgy/takibetakip.php' method='get'>
+          echo "<form role='form' action='/takibetakip.php' method='get'>
                     <div class='alert alert-info'><strong>Canlı Takipçi:</strong> $topic->name Hastagine En Son Yazı Yazan 10 Kullanıcıyı Takip Et.
                       <input type='hidden' name='$topic->name' value='run'>
                       <input type='submit' value='$topic->name'>
