@@ -72,6 +72,8 @@
                     <li><a href='/tweetat.php'>Tweet At</a></li>
                     <li><a href='/dm.php'>DM</a></li>
                     <li><a href='/takipalg.php'>Takip Algoritması</a></li>
+                    <li><a href='/istatistik.php'>İstatistik</a></li>
+
                 </ul>
                 <ul class='nav navbar-nav navbar-right'>
                     <li><a href='/logout.php'><i class='glyphicon glyphicon-circle-arrow-right'></i> Çıkış</a>
