@@ -14,11 +14,11 @@ else
     $connectionOauth->setTimeouts(30, 30);
 
     $friends = $connectionOauth->get("friends/list" , array('count' => 200));
-
+    print_r $friends;
     echo " <h1 class='title'>Takip Edilen</h1> <div class='wall'>";
 
     foreach ($friends->users as $friend) {
-      print_r ($friend);
+      //print_r ($friend);
     //     echo "
     //         <div class ='data'>
     //             <img src='$friend->profile_image_url' alt='$friend->name' title='$friend->name' id='userImage'/>
