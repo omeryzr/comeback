@@ -18,7 +18,7 @@ else
     echo " <h1 class='title'>Takip Edilen</h1> <div class='wall'>";
 
     foreach ($friends->users as $friend) {
-      print_r $friend;
+      print_r ($friend);
     //     echo "
     //         <div class ='data'>
     //             <img src='$friend->profile_image_url' alt='$friend->name' title='$friend->name' id='userImage'/>
